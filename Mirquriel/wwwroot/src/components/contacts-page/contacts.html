@@ -1,0 +1,24 @@
+<div class="content">
+    <div class="page">
+        <div class="navigation">
+            <div data-bind="map: {}" class="map"></div>
+        </div>
+        <div class="details">
+            <div class="contacts">
+                <p data-bind="textresource: 'inc_title'"></p>
+                <p class="title" data-bind="textresource: 'contacts_country'"></p>
+                <p><span data-bind="textresource: 'contacts_phone_lable'"></span><span data-bind="textresource: 'contacts_phone'"></span></p>
+                <p><span data-bind="textresource: 'contacts_email_lable'"></span><a data-bind="attr: { href: url('contacts_email') }"><span data-bind="textresource: 'contacts_email'"></span></a></p>
+                <p><span data-bind="textresource: 'contacts_address_lable'"></span><span data-bind="textresource: 'contacts_address_street'"></span>, <span data-bind="textresource: 'contacts_address_city'"></span></p>
+                <div class="social">
+                    <a class="fb" data-bind="social: 'facebook'"></a>
+                    <a class="tw" data-bind="social: 'twitter'"></a>
+                    <a class="in" data-bind="social: 'linkedin'"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="video" data-bind="click: hideSplashScreen">
+    <div data-bind="video: { autoplay: true, src: 'api/stream?mimetype=video_mp4&key=golf', events: { ended: hideSplashScreen, error: hideSplashScreen } }"></div>
+</div>

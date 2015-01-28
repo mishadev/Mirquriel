@@ -1,0 +1,36 @@
+<div class="menu">
+    <div data-bind="click: menu.toggleMenu, event: { mouseover: menu.hint }" class="hint-line btn">
+        <div class="btn clearfix">
+            <div class="icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-line">
+        <div class="navigation">
+            <div class="logo"></div>
+            <div class="links">
+                <div>
+                    <a href="#" data-bind="css: { active: current() === 'business-offer-page' }, textresource: 'business_offer_title'"></a>
+                    <a href="#cooperation" data-bind="css: { active: current() === 'cooperation-offer-page' }, textresource: 'cooperation_offer_title'"></a>
+                    <a href="#contacts" data-bind="css: { active: current() === 'contacts-page' }, textresource: 'contacts_title'"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contacts">
+                <p data-bind="textresource: 'contacts_title'"></p>
+                <p><span data-bind="textresource: 'contacts_phone_lable'"></span><span data-bind="textresource: 'contacts_phone'"></span></p>
+                <p><span data-bind="textresource: 'contacts_email_lable'"></span><span data-bind="textresource: 'contacts_email'"></span></p>
+                <p><span data-bind="textresource: 'contacts_address_lable'"></span><span data-bind="textresource: 'contacts_address_street'"></span>, <span data-bind="textresource: 'contacts_address_city'"></span></p>
+            </div>
+            <div class="social">
+                <a class="fb" data-bind="social: 'facebook'"></a>
+                <a class="tw" data-bind="social: 'twitter'"></a>
+                <a class="in" data-bind="social: 'linkedin'"></a>
+            </div>
+        </div>
+    </div>
+</div>

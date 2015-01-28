@@ -1,0 +1,92 @@
+@import "../bower_modules/bourbon/dist/bourbon";
+@import 'spinner';
+
+@media screen and (max-width: 900px) {
+    .screen {
+        .content {
+            .page {
+                .navigation {
+                    & > .btn {
+                        & > div {
+                            a {
+                                width: 130px;
+                                padding: 15px;
+                                font-size: .9em;
+                            }
+                        }
+                    }
+
+                    .title {
+                        background: none;
+
+                        h1 {
+                            font-size: 1.3em;
+                        }
+                    }
+
+                    .background-container {
+                        & > div {
+                            & > div {
+                                & > div {
+                                    margin-top: 85%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .details {
+                    .text-content {
+                        padding-top: 40px;
+                    }
+                }
+            }
+        }
+
+        &[data-page=contacts-page] {
+            .page {
+                .navigation {
+                    @include display(none);
+                }
+
+                .details {
+                    @include size(100%);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .screen {
+        .content {
+            .page {
+                .navigation {
+                    display: none;
+                }
+
+                .details {
+                    @include size(100%);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-height: 650px) {
+    .screen {
+        .menu {
+            .main-line {
+                .footer {
+                    .contacts {
+                        @include display(none);
+                    }
+
+                    .social {
+                        margin-top: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

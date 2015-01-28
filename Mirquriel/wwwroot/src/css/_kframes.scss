@@ -1,0 +1,14 @@
+@import "../bower_modules/bourbon/dist/bourbon";
+
+@include keyframes(shake){
+    0% { @include transform(translateX(0px)); }
+    25% { @include transform(translateX(3px)); }
+    50% { @include transform(translateX(0px)); }
+    75% { @include transform(translateX(-3px)); }
+    100% { @include transform(translateX(0px)); }
+}
+
+@include keyframes(spinner) {
+    0% { @include transform(rotate(0deg)); }
+    100% { @include transform(rotate(360deg)); }
+}

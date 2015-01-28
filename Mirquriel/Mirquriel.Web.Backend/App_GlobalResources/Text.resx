@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="text_Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="text_Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="text_Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="text_Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="text_business_offer_title" xml:space="preserve">
+    <value>commercial</value>
+  </data>
+  <data name="text_contacts_title" xml:space="preserve">
+    <value>contacts</value>
+  </data>
+  <data name="text_contact_us" xml:space="preserve">
+    <value>contact us now</value>
+  </data>
+  <data name="text_cooperation_offer_title" xml:space="preserve">
+    <value>cooperation</value>
+  </data>
+  <data name="text_business_offer_long_title" xml:space="preserve">
+    <value>“Agricultural and industrial exchange of Ukraine”</value>
+  </data>
+  <data name="text_cooperation_offer_long_title" xml:space="preserve">
+    <value>“Agricultural and industrial exchange of Ukraine”</value>
+  </data>
+  <data name="text_contacts_phone_lable" xml:space="preserve">
+    <value>Phone: </value>
+  </data>
+  <data name="text_contacts_country" xml:space="preserve">
+    <value>Ukraine:</value>
+  </data>
+  <data name="text_contacts_phone" xml:space="preserve">
+    <value>+(380) 66 847-23-33</value>
+  </data>
+  <data name="text_contacts_email_lable" xml:space="preserve">
+    <value>Email: </value>
+  </data>
+  <data name="text_contacts_email" xml:space="preserve">
+    <value>info@ai-exchange.com.ua</value>
+  </data>
+  <data name="uri_contacts_email" xml:space="preserve">
+    <value>mailto://info@ai-exchange.com.ua</value>
+  </data>
+  <data name="text_contacts_address_lable" xml:space="preserve">
+    <value>Address: </value>
+  </data>
+  <data name="text_contacts_address_city" xml:space="preserve">
+    <value>Odessa</value>
+  </data>
+  <data name="text_contacts_address_street" xml:space="preserve">
+    <value>76 Bazarna St</value>
+  </data>
+  <data name="text_inc_title" xml:space="preserve">
+    <value>Agricultural and industrial exchange</value>
+  </data>
+  <data name="uri_facebook" xml:space="preserve">
+    <value>https://www.facebook.com/</value>
+  </data>
+  <data name="uri_twitter" xml:space="preserve">
+    <value>http://twitter.com/</value>
+  </data>
+  <data name="uri_linkedin" xml:space="preserve">
+    <value>https://www.linkedin.com/</value>
+  </data>
+  <data name="text_business_offer_text" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;h3&gt;“Agricultural and industrial exchange of Ukraine”&lt;/h3&gt;
+        &lt;h1&gt;Commercial proposal&lt;/h1&gt;
+        &lt;p&gt;You are kindly requested by Agricultural and Industrial exchange of Ukraine to review our commercial proposal for mutually advantageous cooperation. The present proposal will be couched on the basis of our possibilities and involving your investments. The current economic and political situation in Ukraine is rather complicated and demands profound changes. In spite on complicated problems of the political situation in Ukraine and negative effect on economic state of former government directed by V.Yanukovych, and local acts of war by Russian Federation, the Ukrainian economics open wide perspective investments. At the moment, Ukraine has positively and prospectively developing companies with cumulating economic indicators. &lt;span&gt;&lt;br/&gt;It must be kept in mind, that:&lt;/span&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Ukraine occupies perfect geographic position. It’s situated in the node of intermediate carriers from Turkey, Georgia, Armenia, Azerbaijan, Moldova, Bulgaria, Romania, Hungary, Germany through Poland, Italy, France, Spain etc. Partly Thanks to the quantity of big marine ports on the Black Sea, like Odessa, Illichivsk, Mykolaiv etc.&lt;/li&gt;
+            &lt;li&gt;Ukraine it’s a biggest country in Europe. It occupies almost 6% of Continent. Ukraine has the richest black-iron ore reserves, 25% of world black earth situated here. This brings us to the conclusion that Ukraine is the biggest agricultural country in Europe and third in the world. Agricultural and industrial export of Ukraine makes 16-17 USD per year.&lt;/li&gt;
+            &lt;li&gt;Potential and current energetic situation in Ukraine is rather good. According to the assumptions of experts the petroleum and gas reserves on the Black sea cost shelf will be full the coming 150 years. Furthermore, Ukraine has four active nuclear power plants, without regard to hydroelectric power plants and heat power plants.&lt;/li&gt;
+            &lt;li&gt;Traffic network of Ukraine is active. Ukrainian railroads of internal and international usage are in fairly good condition, bur need current repair. Ukraine has seven active international airports. Also, Ukraine has big network of highways, whereof: international – 5%, must be reconstructed – 38%.&lt;/li&gt;
+            &lt;li&gt;Creation of big foreign economic contracts and perspective market in Ukraine is possible only in the process of changing of Ukrainian policy, integration into the EU and close cooperation and support of the USA and Great Britain.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;All the above is the sign that Ukraine is a big perspective investment project with real possibilities for further business development.&lt;/p&gt;
+        &lt;p&gt;Our Agricultural and Industrial Exchange of Ukraine – it’s brand new company based on investment projects. Company has few very big storage rooms in Odessa region, Kyiv and Uzhhorod. All these storage rooms comply with the EU standards and located in the borderland between transport corridors and are favorable for export-import operations. Also, our new company is open activated system with circumspect ideas relatively legal defense of business in Ukraine. Our specialists had developed new program concerning Ukrainian investments, business management, and major economic directions in Ukraine.&lt;/p&gt;
+        &lt;p&gt;We are looking forward for your proposals concerning joint cooperation.&lt;/p&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="text_cooperation_offer_text" xml:space="preserve">
+    <value>
+    &lt;div&gt;
+      &lt;h3&gt;“Agricultural and industrial exchange of Ukraine”&lt;/h3&gt;
+      &lt;h1&gt;Cooperation proposal&lt;/h1&gt;
+      &lt;p&gt;Up to 2014 the whole economic movement of Ukraine was crippled by the supreme government, which precluded to accumulate and to develop economic potential by their corrupted subunits, thus expanding economic policy in Ukraine does not exist. In addition, such situation has extended on different economical branches: power industry, agricultural sector, logistic directions, road junction, foreign economic contracts, banking etc. In the view of the above said now Ukraine is in favorable climate for the development of the foreign and domestic economy.&lt;/p&gt;
+      &lt;p&gt;&lt;span&gt;“Agricultural and industrial exchange of Ukraine”&lt;/span&gt; is a totally commercial, non-government project, thanks to which economic conversion and development of all national economy can be carried into execution. We have the plan of constructive development of the whole economic system and its orientation on the level of highly developed countries. The main point is that up to nowadays the Ukrainian economy was basically under the control of the economic strategy of Russia. Thus Russia has influenced the main energetic balance (gas pipeline system) of Ukraine through its business structures and has determined pricing policy. The rest of the economic domains of Ukraine have been developed to the extent necessary for Russia. Thus, the developed economic structure at the domestic level wasn’t necessary for Russia, because of the usage and exports of big quantity of subsoil resources (natural gas and petroleum), so the economy of Ukraine without such resources was dependent on Russian autocratic corrupted structures and was in a bad state. In the view of the above said, the major and top target is the necessity of development of the economy of Ukraine.&lt;/p&gt;
+      &lt;p&gt;It should be realized that the investments are the priority and the beginning of all economic conversions in Ukraine. The priority for the investment funds is the investments only into the projects which guarantee natural profit. Thus our newly established structures, such as non-governmental organization “Agro-industrial exchange of Ukraine” is beyond the corrupt relationships with former bureaucrats, and offers you the profitable development and inspection of your investments into favorable, attractive projects. We have absolute understanding and knowledge of economically important industries of the country.&lt;/p&gt;
+      &lt;p&gt;It must be kept in mind, that first of all Ukraine is a huge base of the whole European black earth, thus the agricultural sector is the main sector, which needs the reformation and structural alteration. The machinery used for cultivation of three fourth practically all agricultural enterprises is to be substituted as it is on the level of utilization. But the processing technology of farmlands has not been renewed since 1935. Machinery-producing and heavy industries are oriented on Russian industry and outdated equipment must be replaced. Former corrupted customs officers have fully destroyed the foreign economic and export/import contracts, and the customs policy is in chaotic inactivity, etc.&lt;/p&gt;
+      &lt;p&gt;Thus, all interested persons can be provided with the plan and opportunity to consider the joint projects, and the information, to analyze all possible investment ideas with the participation of our organization “Agro-industrial exchange of Ukraine”. With the purpose of information protection of business projects all conversations will be made in person.&lt;/p&gt;
+    &lt;/div&gt;</value>
+  </data>
+</root>

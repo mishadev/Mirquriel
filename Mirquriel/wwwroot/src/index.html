@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=600px, height=device-height, maximum-scale=0.4, initial-scale=0.4, user-scalable=no">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title></title>
+    <!-- build:css -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="bower_modules/normalize.css/normalize.css" rel="stylesheet">
+    <!-- endbuild -->
+    <!-- build:js -->
+    <script src="app/require.config.js"></script>
+    <script data-main="app/startup" src="bower_modules/requirejs/require.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+    <div data-bind="css: { opened: menu.isMenuOpened, 'menu-hint': menu.isHintActive }, attr: { 'data-page': route().page }" class="screen">
+        <menu-bar params="current: route().page, menu: menu"></menu-bar>
+        <div id="main" data-bind="component: { name: route().page, params: $data }, css: { ready: !page.isDestroying() }"></div>
+        <div class="hide" data-bind="audio: { autoplay: true, volume: .3, src: 'api/stream?mimetype=audio_mp3&key=background' }"></div>
+        <loading params="menu: menu">
+            <div class="preloader"><div><div></div><div><div></div></div><div></div></div></div>
+        </loading>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@import "../bower_modules/bourbon/dist/bourbon";
+
+$big-z-index: 10000;
+
+.loading-bar {
+    @include position(absolute, 0 0 auto 0);
+    @include size(100% auto);
+
+    z-index: $big-z-index + 1;
+
+    div {
+        @include size(0 2px);
+        background: #174d30;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+}
+
+.preloader {
+    @include transform(scale(1));
+    @include transition(all .5s ease);
+    @include position(absolute, 0 0 0 0);
+
+    background: #174d30;
+    z-index: $big-z-index - 1;
+    opacity: 1;
+
+    &.hiding {
+        opacity: 0;
+        @include transform(scale(.5));
+    }
+
+    & > div {
+        @include position(absolute, 0 0 0 0);
+        z-index: $big-z-index;
+
+        & > div:nth-child(1) {
+            @include triangle(200px, white, right);
+            @include position(absolute);
+            top: 50%;
+            left: 50%;
+            margin-left: 350px;
+            margin-top: -100px;
+        }
+
+        & > div:nth-child(3) {
+            @include triangle(200px, white, left);
+            @include position(absolute);
+            top: 50%;
+            left: 50%;
+            margin-left: -450px;
+            margin-top: -100px;
+        }
+
+        & > div:nth-child(2) {
+            $width: 450px;
+            $heigth: 465px;
+
+            @include size($width 100%);
+            background: #fff;
+            padding: 0 95px;
+            margin: 0 auto;
+
+            & > div {
+                @include size($width $heigth);
+                @include background(url(/images/preload-logo.png) no-repeat);
+                @include position(absolute, 50% auto auto 50%);
+                margin-left: -$width / 2;
+                margin-top: -$heigth / 2;
+            }
+        }
+    }
+}
+
+#main {
+    .content {
+        @include transform(scale(0.8));
+        opacity: .0;
+    }
+
+    &.ready {
+        .content {
+            @include transform(scale(1));
+            opacity: 1;
+        }
+    }
+}

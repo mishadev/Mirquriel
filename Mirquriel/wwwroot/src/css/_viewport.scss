@@ -1,0 +1,39 @@
+@-webkit-viewport {
+    orientation: portrait;
+    width: 600px;
+    height: device-height;
+    min-zoom: 0.4;
+    max-zoom: 0.4;
+}
+
+@-moz-viewport {
+    orientation: portrait;
+    width: 600px;
+    height: device-height;
+    min-zoom: 0.4;
+    max-zoom: 0.4;
+}
+
+@-ms-viewport {
+    orientation: portrait;
+    width: 600px;
+    height: device-height;
+    min-zoom: 0.4;
+    max-zoom: 0.4;
+}
+
+@-o-viewport {
+    orientation: portrait;
+    width: 600px;
+    height: device-height;
+    min-zoom: 0.4;
+    max-zoom: 0.4;
+}
+
+@viewport {
+    orientation: portrait;
+    width: device-width;
+    height: device-height;
+    min-zoom: 0.4;
+    max-zoom: 0.4;
+}

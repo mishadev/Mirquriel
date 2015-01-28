@@ -1,0 +1,33 @@
+<div class="content">
+    <div class="page">
+        <div class="navigation">
+            <div class="background-container">
+                <div data-bind="video: { autoplay: true, loop: true, src: 'api/stream?mimetype=video_mp4&key=background' }"></div>
+            </div>
+            <div class="title">
+                <div><div class="logo"></div></div>
+                <h1 data-bind="textresource: 'business_offer_long_title'"></h1>
+            </div>
+            <div class="btn-container">
+                <div><a href="#cooperation" data-bind="textresource: 'cooperation_offer_title'"></a></div>
+            </div>
+        </div>
+        <div class="details">
+            <div class="navigation-btns">
+                <div>
+                    <div>
+                        <a class="fb" data-bind="social: 'facebook'"></a>
+                        <a class="tw" data-bind="social: 'twitter'"></a>
+                        <a class="in" data-bind="social: 'linkedin'"></a>
+                    </div>
+                    <a href="#contacts" data-bind="textresource: 'contact_us'"></a>
+                </div>
+            </div>
+            <div class="text" data-bind="scrollable: {}">
+                <div class="text-content">
+                    <div data-bind="textresource: 'business_offer_text'"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

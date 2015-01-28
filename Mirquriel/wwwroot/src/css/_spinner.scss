@@ -1,0 +1,11 @@
+@import "../bower_modules/bourbon/dist/bourbon";
+
+@mixin spinner($size: 15px, $color: #000, $width: 1px, $speed: 1s) {
+    @include size($size 0);
+    @include animation(spinner $speed infinite linear);
+    display: inline-block;
+    border-radius: 100%;
+    border: $width solid $color;
+    border-left-color: transparent;
+    padding-bottom: $size;
+}
